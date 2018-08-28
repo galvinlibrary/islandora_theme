@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Economica:700|Open+Sans:400,600,700|Oswald:400,500');
+
+$link: #0E76BD;
+$gray: #666666;
+$lightergray: #707070;
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #707070;
+}
+
+a {
+    color: $link;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+}
+
+// header
+
+#header {
+    padding: 10px 0px;
+    #branding {
+        #site-name {
+            font-family: "Economica", sans-serif;
+            font-size: 2.3125em;
+            float: left;
+        }
+        img{
+            height: 50px;
+            float: right;
+        }
+        
+    }
+}
+
+// menus & navigation
+
+#primary-menu-bar {
+    background-color: $gray;
+    padding: 5px 0px;
+    a {
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+
+//item lists
+
+#islandora-objects-list-item clearfix {
+    border: 1px solid $lightergray;
+}
+

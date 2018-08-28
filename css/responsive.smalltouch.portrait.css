@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Economica:700|Open+Sans:400,600,700|Oswald:400,500");
+/* line 7, ../sass/_islandora.scss */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #707070;
+}
+
+/* line 12, ../sass/_islandora.scss */
+a {
+  color: #0E76BD;
+}
+
+/* line 16, ../sass/_islandora.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+
+/* line 23, ../sass/_islandora.scss */
+#header {
+  padding: 10px 0px;
+}
+/* line 26, ../sass/_islandora.scss */
+#header #branding #site-name {
+  font-family: "Economica", sans-serif;
+  font-size: 2.3125em;
+  float: left;
+}
+/* line 31, ../sass/_islandora.scss */
+#header #branding img {
+  height: 50px;
+  float: right;
+}
+
+/* line 41, ../sass/_islandora.scss */
+#primary-menu-bar {
+  background-color: #666666;
+  padding: 5px 0px;
+}
+/* line 44, ../sass/_islandora.scss */
+#primary-menu-bar a {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* line 52, ../sass/_islandora.scss */
+#islandora-objects-list-item clearfix {
+  border: 1px solid #707070;
+}
+
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+/* Increase the default font size on small touch devices */
+/* line 16, ../sass/responsive.smalltouch.portrait.scss */
+body {
+  font-size: 100%;
+}
+
+/* =============================================================================
+ *   Mobile Menu Toggle
+ *   See your theme settings extensions for how to enable the menu toggle.
+ *   These are example styles for the menu toggle menu, you can use these in the
+ *   relevant responsive stylesheets as required. Modify to suit your design.
+ * ========================================================================== */
+/* line 26, ../sass/responsive.smalltouch.portrait.scss */
+.at-mt .at-menu-toggle {
+  /* The toggle link */
+  /* Menu items */
+}
+/* line 28, ../sass/responsive.smalltouch.portrait.scss */
+.at-mt .at-menu-toggle h2 {
+  margin-bottom: 5px;
+}
+/* line 31, ../sass/responsive.smalltouch.portrait.scss */
+.at-mt .at-menu-toggle h2 a {
+  background: #eee;
+  border: 2px solid #ccc;
+  padding: 2px 10px;
+}
+/* line 39, ../sass/responsive.smalltouch.portrait.scss */
+.at-mt .at-menu-toggle ul.menu li a {
+  background: #eee;
+  border-bottom: 1px solid #fff;
+}
+
+/*# sourceMappingURL=responsive.smalltouch.portrait.css.map */
